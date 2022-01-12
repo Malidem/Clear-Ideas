@@ -14,7 +14,7 @@ nav {
 }
 
 .navbar {
-    position: sticky;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -25,8 +25,8 @@ nav {
 }
 
 .brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
+    font-size: 2.6rem;
+    margin: .7rem;
 }
 
 .navbar-links ul {
