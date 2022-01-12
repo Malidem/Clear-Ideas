@@ -14,7 +14,6 @@ nav {
 }
 
 .navbar {
-    position: sticky;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
