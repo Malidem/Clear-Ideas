@@ -94,3 +94,23 @@ nav {
         display: flex;
     }
 }
+.main {
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+.general-info {
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.time{
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
