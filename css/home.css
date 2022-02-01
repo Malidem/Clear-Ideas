@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section{ 
+    display: flex;
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.main-container {
+
+}
+
+.main-time {
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+
+}
+
+.product {
+
+}
+
+.sidbar {
+
+}
