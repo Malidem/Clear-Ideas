@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Navigation/Header */
 nav {
     display: flex;
 }
@@ -70,7 +70,7 @@ nav {
     background-color: #434444;
     border-radius: 20px;
 }
-
+/*Hamber menu*/
 @media (max-width: 800px) {
     .toggle-button {
         display: flex;
@@ -130,4 +130,36 @@ nav {
 #purchase-bottom-border {
     border-bottom: dotted;
     height: 400px;
+}
+/* Index page */
+.main {
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+.general-info {
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.time{
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.product {
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
