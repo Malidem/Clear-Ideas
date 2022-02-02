@@ -118,3 +118,14 @@ nav {
     margin-right: 15%;
     text-align: center;
 }
+.product {
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
