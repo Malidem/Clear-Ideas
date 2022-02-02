@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
 nav {
     display: flex;
 }
-
 .navbar {
     position: absolute;
     display: flex;
@@ -24,35 +22,29 @@ nav {
     color: #003366;
     
 }
-
 .brand-title {
     font-size: 2.6rem;
     margin: .7rem;
     font-weight: bolder;
 }
-
 .navbar-links ul {
     margin: 0;
     padding: 0;
     display: flex;
 }
-
 .navbar-links li {
     list-style: none;
     font-weight: bolder;
 }
-
 .navbar-links li a {
     text-decoration: none;
     color: #0059b3;
     padding: 1rem;
     display: block;
 }
-
 .navbar-links li:hover {
     background-color:  #cce6ff;
 }
-
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -63,7 +55,6 @@ nav {
     width: 30px;
     height: 21px;
 }
-
 .toggle-button .bar {
     height: 3px;
     width: 100%;
@@ -117,4 +108,26 @@ nav {
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
+}
+section{ 
+    display: flex;
+}
+.sidbar {
+    flex-direction: row;   
+}
+.sidbar-img1-product {
+    padding: 10%;
+    margin-right: 15px;
+    margin-right: 15px;
+}
+/* Contact Page */
+nav {
+    display: flex;
+}
+.contact-list{
+    padding-top: 3%;
+}
+.google-map{
+    align-items: center;
+    margin-left: 3.5rem;
 }
