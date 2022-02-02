@@ -87,6 +87,7 @@ nav {
     .navbar-links.active {
         display: flex;
     }
+
 }
 /* Index page */
 .main {
@@ -130,4 +131,48 @@ nav {
 .google-map{
     align-items: center;
     margin-left: 3.5rem;
+}
+.product {
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Purchase Page */ 
+#purchase-overlay {
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #a3a3a38e;
+    width: 65%;
+    height: 800px;
+    margin-left: 17.5%;
+    margin-top: 25px;
+    padding: 2%;
+}
+
+#purchase-inside-overlay {
+    flex-direction: row;
+}
+
+#purch-prod-img {
+        width: 240px;
+        height: auto;
+        border-style: solid;
+        float: left;
+    }
+
+#purch-paragraph {
+    padding: 1%;
+    float: left;
+    font-size: 24px;
+}
+#purchase-bottom-border {
+    border-bottom: dotted;
+    height: 400px;
 }
