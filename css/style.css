@@ -132,11 +132,12 @@ p {
     padding-top: 3%;
     text-align: center;
     list-style: none;
+    font-size: 18px;
 }
 .google-map{
     align-items: center;
     margin-left: 1rem;
-    width: 90%;
+    width: 100%;
     height: 450px;
 }
 .product {
