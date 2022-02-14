@@ -61,7 +61,7 @@ nav {
     background-color: #434444;
     border-radius: 20px;
 }
-/*Hamber menu*/
+/*Hamburger menu*/
 @media (max-width: 800px) {
     .toggle-button {
         display: flex;
@@ -125,12 +125,19 @@ section{
 nav {
     display: flex;
 }
+p {
+    text-align: center;
+}
 .contact-list{
     padding-top: 3%;
+    text-align: center;
+    list-style: none;
 }
 .google-map{
     align-items: center;
-    margin-left: 3.5rem;
+    margin-left: 1rem;
+    width: 90%;
+    height: 450px;
 }
 .product {
     text-align: center;
