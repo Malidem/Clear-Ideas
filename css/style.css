@@ -161,6 +161,7 @@ p {
     height: 800px;
     margin-left: 17.5%;
     margin-top: 25px;
+    margin-bottom: 25px;
     padding: 2%;
 }
 
@@ -179,8 +180,43 @@ p {
     padding: 1%;
     float: left;
     font-size: 24px;
+    height:50px;
+    width:400px;
 }
 #purchase-bottom-border {
     border-bottom: dotted;
     height: 400px;
+}
+
+#purchase-price {
+    float:left;
+    font-size: large;
+    text-decoration: underline;
+    margin-left: 22%;
+}
+
+#bottom_div {
+    margin-top: 25px;
+}
+
+#stand_pic {
+    width: 240px;
+    height: auto;
+    border-style: solid;
+    float: left;
+}
+
+#purchase_button {
+    float: right;
+    height: 50px;
+    width: 75px;
+    border-style: solid;
+    border-color: #0059b3;
+    margin-top: 22%;
+    background-color: #66b3ff;
+    padding-top: 1%;
+}
+
+#inside_purchase_button {
+    text-align: center;
 }
